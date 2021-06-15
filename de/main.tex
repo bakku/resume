@@ -1,0 +1,176 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{../developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Christian}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Paling}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Software Entwickler} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.25\textwidth} % 25% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+        \icon{Gift}{12}{15.05.1995}\\
+	\icon{MapMarker}{12}{Würzburg}\\
+	\icon{Phone}{12}{+49 173 5680048}\\
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} % 30% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Github}{12}{\href{https://github.com/bakku}{github.com/bakku}}\\
+	\icon{Medium}{12}{\href{https://medium.com/@bakku1505}{medium.com/@bakku1505}}\\
+	\icon{At}{12}{\href{mailto:christian.paling@googlemail.com}{christian.paling@gmail.com}}\\	
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Profil}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+        Ich biete ein breites Spektrum an Erfahrung als Software Entwickler, habe jedoch meinen primären
+        Fokus im Bereich der Backend Entwicklung und sekundären Fokus in der Frontend Entwicklung.
+        Während meiner Zeit als Angestellter und Freiberufler habe ich mehrere Dutzend
+        Softwaresysteme neuentwickelt, gewartet, verbessert und skaliert. Bei meiner Arbeit wähle ich
+        passende und moderne Technologien für den jeweiligen Anwendungszweck, sowie erprobte Entwicklungsmethodiken
+        um hochqualitative Software zu entwickeln.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.55\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Ruby}{80}
+		\baritem{JVM (Java/Scala/Clojure)}{60}
+		\baritem{Golang}{60}
+                \baritem{SQL/NoSQL Datenbanken}{60}
+		\baritem{JavaScript}{50}
+		\baritem{CSS}{50}
+	\end{barchart}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Ausbildung}
+
+\begin{entrylist}
+	\entry
+		{2019 -- 2021}
+		{Master of Science}
+		{Ostbayerische Technische Hochschule - Regensburg}
+		{Schwerpunkte: Moderne theoretische und praktische Softwaretechniken, Spezialisierte Algorithmen, Verteilte Systeme\\Masterarbeit: Entwicklung von domänenspezifischen Sprachen und polyglotten Applikationen mit der GraalVM\\Endnote: noch ausstehend}
+	\entry
+		{2013 -- 2017}
+		{Bachelor of Engineering}
+		{Hochschule für angewandte Wissenschaften - Würzburg}
+		{Schwerpunkte: IT-Security, Microservices, Mobile Applikationen\\Bachelorarbeit: Hochskalierbare 12-factor Apps mit Ruby on Rails, Laravel und Play\\Endnote: 1,5\\Auszeichnung als einer der drei besten Absolventen (Professor Wolfgang Maria Fischer Stiftung)}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Praktische Erfahrung}
+
+\begin{entrylist}
+	\entry
+		{seit 2016}
+		{Freiberuflicher Software Entwickler}
+		{}
+		{- Softwareentwicklung jeglicher Art (Web, Client, Kommandozeilenprogramme, ...)\\
+                 \texttt{Ruby}\slashsep\texttt{JVM}\slashsep\texttt{Visual Basic}\slashsep\texttt{Golang}\slashsep\texttt{Docker}}
+	\entry
+		{2017 -- 2019}
+		{Web Developer}
+		{Streetspotr Gmbh - Nürnberg}
+		{- Entwickeln neuer Systeme der SOA der Firma (Beispiel: Plattform für Datenanalyse für Kunden)\\
+                 - Umstrukturierung und Skalierung existierender Web Services mittels AWS\\
+                 - Integration neuer Team-Mitglieder bei der Fusion mit der POSpulse GmbH\\
+                 \texttt{Ruby}\slashsep\texttt{Golang}\slashsep\texttt{MySQL}\slashsep\texttt{MongoDB}\slashsep\texttt{React}}
+	\entry
+		{2015 -- 2016}
+		{Praktikant Software Entwicklung}
+		{4tiitoo Gmbh - München}
+		{- Entwicklung eines Web Shops worüber Kunden Plugins für das Hauptprodukt der Firma kaufen\\
+                 - Entwicklung von Plugins für das Hauptprodukt der Firma\\
+                 \texttt{Ruby}\slashsep\texttt{React}\slashsep\texttt{PostgreSQL}\slashsep\texttt{Elasticsearch}\slashsep\texttt{C++}}
+	\entry
+		{2014 -- 2015}
+		{Werksstudent Quality Assurance}
+		{iisy AG - Rimpar}
+		{- Schreiben von Integrations- und Akzeptanztests\\
+                 \texttt{Java}\slashsep\texttt{Selenium}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Sprachen}
+	
+	\textbf{Deutsch} - Muttersprache\\
+	\textbf{Englisch} - Fließend
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Methodiken}
+	
+        - Funktionale Programmierung\\
+        - Test-Driven Development\\
+        - Container- und Cloudbasierte Applikationen\\
+        - Agile Entwicklung\\
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
