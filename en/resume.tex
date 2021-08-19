@@ -30,7 +30,7 @@
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.40\textwidth} % 45% of the page width for name
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% If your name is very short, use just one of the lines below
@@ -41,24 +41,25 @@
 	
 	\vspace{6pt}
 	
-	{\huge Backend Entwickler} % Career or current job title
+	{\huge Software Engineer} % Career or current job title
 \end{minipage}
-\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the first row of icons
+\begin{minipage}[t]{0.25\textwidth} % 25% of the page width for the first row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+        \icon{Gift}{12}{15 May 1995}\\
 	\icon{MapMarker}{12}{Würzburg}\\
 	\icon{Phone}{12}{+49 173 5680048}\\
-	\icon{At}{12}{\href{mailto:christian.paling@googlemail.com}{christian.paling@gmail.com}}\\	
 \end{minipage}
-\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the second row of icons
+\begin{minipage}[t]{0.3\textwidth} % 30% of the page width for the second row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
 	\icon{Github}{12}{\href{https://github.com/bakku}{github.com/bakku}}\\
 	\icon{Medium}{12}{\href{https://medium.com/@bakku1505}{medium.com/@bakku1505}}\\
+	\icon{At}{12}{\href{mailto:christian.paling@googlemail.com}{christian.paling@gmail.com}}\\	
 \end{minipage}
 
 \vspace{0.5cm}
@@ -67,106 +68,107 @@
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
 
-\cvsect{Who Am I?}
+\cvsect{Profile}
 
 \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+        I am a software engineer with a wide range of experience, however, with a primary focus on
+        backend development and secondary focus on frontend development. During my time as employee
+        and freelancer I built, maintained, improved, and scaled a few dozen software systems using
+        a range of different languages and technologies. For every problem I try to select the most fitting
+        and modern technology and framework combined with established methodologies to develop high-quality
+        software.
 \end{minipage}
 \hfill % Whitespace between
-\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+\begin{minipage}[t]{0.55\textwidth} % 50% of the page for the skills bar chart
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	\begin{barchart}{5.5}
-		\baritem{JavaScript}{60}
-		\baritem{PHP}{100}
-		\baritem{SASS/LESS}{70}
-		\baritem{Bootstrap}{70}
-		\baritem{Git}{40}
-		\baritem{LaTeX}{60}
+		\baritem{Ruby}{80}
+		\baritem{JVM (Java/Scala/Clojure)}{60}
+		\baritem{Golang}{60}
+                \baritem{SQL/NoSQL Databases}{60}
+		\baritem{JavaScript}{50}
+		\baritem{CSS}{50}
 	\end{barchart}
 \end{minipage}
 
-\begin{center}
-	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
-\end{center}
-
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\cvsect{Experience}
-
-\begin{entrylist}
-	\entry
-		{2017 -- 3/2018}
-		{Front-end developer}
-		{Big Corporation Name Inc.}
-		{\lorem \lorem \lorem\\ \texttt{node.js}\slashsep\texttt{Vue.js}\slashsep\texttt{Electron}}
-	\entry
-		{2015 -- 2018\\\footnotesize{part time}}
-		{Full stack developer}
-		{Famous Eshop Inc.}
-		{\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{JS}\slashsep\texttt{MariaDB}\slashsep\texttt{Linux}}
-	\entry
-		{2013 -- 2014\\\footnotesize{part time}}
-		{Junior PHP Developer}
-		{example.com}
-		{\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{Laravel}}
-\end{entrylist}
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
 %----------------------------------------------------------------------------------------
 
 \cvsect{Education}
 
 \begin{entrylist}
 	\entry
+		{2019 -- 2021}
+		{Master of Science}
+		{University of Applied Sciences - Regensburg}
+		{Key aspects: Modern theoretical and practical software techniques, specialized algorithms, distributed systems\\Master thesis: Building Domain Specific Languages and Polyglot Applications with GraalVM\\Final Grade: 1,3}
+	\entry
 		{2013 -- 2017}
-		{Master's Degree}
-		{Another University Name}
-		{\lorem\lorem\lorem}
+		{Bachelor of Engineering}
+		{University of Applied Sciences - Würzburg}
+		{Key aspects: IT security, microservices, mobile applications\\Bachelor thesis: 12-factor Apps with Ruby on Rails, Laravel and Play\\Final Grade: 1,5\\Honored as one of the best computer science graduates (Prof. Wolfgang Maria Fischer Stiftung)}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Work Experience}
+
+\begin{entrylist}
 	\entry
-		{2014}
-		{Postgraduate Diploma}
-		{A University Name}
-		{\lorem\lorem}
+		{since 2016}
+		{Freelance Software Engineer}
+		{}
+		{- Developed web, desktop, and CLI applications for multiple clients\\
+                 \texttt{Ruby}\slashsep\texttt{JVM}\slashsep\texttt{Visual Basic}\slashsep\texttt{Golang}\slashsep\texttt{Docker}}
 	\entry
-		{2007 -- 2013}
-		{Bachelor's Degree}
-		{A University Name}
-		{\lorem\lorem}
+		{2017 -- 2019}
+		{Web Developer}
+		{Streetspotr Gmbh - Nürnberg}
+		{- Developed new applications in a service-oriented landscape of systems (example: data-analytics platform for customers)\\
+                 - Refactored, enhanced, and scaled existing web services\\
+                 - Integrated new team members during a merger with the POSpulse GmbH\\
+                 \texttt{Ruby}\slashsep\texttt{Golang}\slashsep\texttt{MySQL}\slashsep\texttt{MongoDB}\slashsep\texttt{React}\slashsep\texttt{AWS}}
+	\entry
+		{2015 -- 2016}
+		{Intern Software Engineering}
+		{4tiitoo Gmbh - München}
+		{- Developed an app store to buy and download plugins for the main product of the company\\
+                 - Developed new plugins for the main product of the company\\
+                 \texttt{Ruby}\slashsep\texttt{React}\slashsep\texttt{PostgreSQL}\slashsep\texttt{Elasticsearch}\slashsep\texttt{C++}}
+	\entry
+		{2014 -- 2015}
+		{Working Student Quality Assurance}
+		{iisy AG - Rimpar}
+		{- Developed integration and acceptance tests\\
+                 \texttt{Java}\slashsep\texttt{Selenium}}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	ADDITIONAL INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.3\textwidth}
+\begin{minipage}[t]{0.45\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
 	\cvsect{Languages}
 	
-	\textbf{English} - native\\
-	\textbf{German} - proficient\\
-	\textbf{Polish} - rudimentary
+	\textbf{German} - Muttersprache\\
+	\textbf{English} - Fließend
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.3\textwidth}
+\begin{minipage}[t]{0.45\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
-	\cvsect{Hobbies}
+	\cvsect{Methodologies}
 	
-	I love... \lorem
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	\cvsect{Non profit}
-	
-	I help... \lorem
+        - Functional programming\\
+        - Test-driven development\\
+        - Container and cloud native applications\\
+        - Agile development\\
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
